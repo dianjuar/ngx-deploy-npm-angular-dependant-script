@@ -1,0 +1,22 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# If you named your virtual environment 'venv' (or anything else)
+venv/
+
+# Ignore .env files, which might contain sensitive information
+.env
+
+# Ignore any database files
+*.db
+*.sqlite3
+
+# Ignore any log files
+*.log
+
+repos/**/*
+dependant.json
+ngx-deploy-npm-dependants.json
